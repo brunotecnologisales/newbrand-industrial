@@ -1,33 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reference Letter Verification</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 60px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .verified-badge {
+      display: inline-block;
+      background: #e6f9ee;
+      color: #1a7f37;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin-bottom: 25px;
+      font-weight: bold;
+    }
+
+    .info-box {
+      background: #f8f9fb;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 25px 0;
+      text-align: left;
+    }
+
+    .info-box p {
+      margin: 8px 0;
+      font-size: 15px;
+      color: #333;
+    }
+
+    .pdf-button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 26px;
+      background: #007bff;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: 0.2s;
+    }
+
+    .pdf-button:hover {
+      background: #0056b3;
+    }
+
+    .footer {
+      margin-top: 35px;
+      font-size: 13px;
+      color: #666;
+    }
+
+    .email {
+      font-weight: bold;
+      color: #222;
+    }
+  </style>
 </head>
-<body style="font-family: Arial; text-align: center; padding: 40px;">
-  <h2>NewBrand Reference Letter Verification</h2>
 
-  <p>This page is used to verify the authenticity of the industrial reference letter issued for:</p>
+<body>
 
-  <p>
-  <a href="carta.pdf" target="_blank"
-     style="display:inline-block;
-            margin-top:20px;
-            padding:12px 20px;
-            background:#007bff;
-            color:white;
-            text-decoration:none;
-            border-radius:8px;
-            font-size:16px;">
-    📄 View Reference Letter (PDF)
-  </a>
-</p>
+  <div class="container">
 
+    <h1>Reference Letter Verification</h1>
+    <p class="subtitle">
+      This page confirms the authenticity of an industrial reference letter.
+    </p>
 
-  <h3>Bruno Azevedo Souza</h3>
+    <div class="verified-badge">
+      ✅ Verified Document
+    </div>
 
-  <p>Issued by: New Brand Trading Company Ltda.</p>
+    <div class="info-box">
+      <p><strong>Issued for:</strong> Bruno Azevedo Souza</p>
+      <p><strong>Issued by:</strong> New Brand Trading Company Ltda.</p>
+      <p><strong>Purpose:</strong> Employment & Industrial Experience Confirmation</p>
+    </div>
 
-  <p>If needed, the company may confirm this letter directly.</p>
+    <a class="pdf-button" href="carta.pdf" target="_blank">
+      📄 View Reference Letter (PDF)
+    </a>
+
+    <div class="footer">
+      For confirmation or inquiries, please contact:<br>
+      <span class="email">emersonmarques@newbrandexport.com.br</span>
+    </div>
+
+  </div>
 
 </body>
 </html>
+
